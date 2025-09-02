@@ -67,12 +67,13 @@ EPRS/
 
 <h3> Sample Output<h3>
 <pre>
-  Initial employees:
+Initial employees:
 Employee[name = Murali, id = 101, salary = 59000.0]
 Employee[name = Vijay, id = 102, salary = 68000.0]
 Employee[name = Kumar, id = 103, salary = 75000.0]
 Employee[name = Kishan, id = 104, salary = 5200.0]
 Employee[name = Raj, id = 105, salary = 10670.0]
+
 
 Removing employee:
 Remaining employees:
