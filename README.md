@@ -38,12 +38,31 @@
         </li>
     </ul>
 
-    EPRS/
+ <pre>
+EPRS/
 │── Main.java               # Entry point of the program
 │── Employee.java           # Abstract base class for all employees
 │── FullTimeEmployee.java   # Class for full-time employees
 │── PartTimeEmployee.java   # Class for part-time employees
 │── PayRollSystem.java      # Manages employee list (add/remove/display)
+  </pre>
 
+ <h2>⚙️ How It Works</h2>
+  <p>Employees are created and added to the payroll system.</p>
+  <p>Salaries are calculated using the <code>calculateSalary()</code> method (overridden in subclasses).</p>
+  <p>The payroll system allows:</p>
+  <ul>
+    <li>Adding employees</li>
+    <li>Removing employees by ID</li>
+    <li>Displaying the current employee list</li>
+  </ul>
+<h2>📖 Concepts Covered</h2>
+  <ul>
+    <li><strong>Abstraction</strong> → Using an abstract <code>Employee</code> class.</li>
+    <li><strong>Inheritance</strong> → <code>FullTimeEmployee</code> and <code>PartTimeEmployee</code> extend <code>Employee</code>.</li>
+    <li><strong>Polymorphism</strong> → Overriding <code>calculateSalary()</code> in subclasses.</li>
+    <li><strong>Encapsulation</strong> → Private fields with public getters.</li>
+    <li><strong>Collections</strong> → Managing employees with <code>ArrayList</code>.</li>
+  </ul>
 </body>
 </html>
