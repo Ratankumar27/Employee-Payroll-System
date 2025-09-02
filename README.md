@@ -37,5 +37,13 @@
             </ul>
         </li>
     </ul>
+
+    EPRS/
+│── Main.java               # Entry point of the program
+│── Employee.java           # Abstract base class for all employees
+│── FullTimeEmployee.java   # Class for full-time employees
+│── PartTimeEmployee.java   # Class for part-time employees
+│── PayRollSystem.java      # Manages employee list (add/remove/display)
+
 </body>
 </html>
